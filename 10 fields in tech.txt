@@ -1,0 +1,11 @@
+ 10 fields in tech areL:
+1. Data Scientist
+2. Software Developer
+3. Information Security Analyst
+4. Computer Systems Analyst
+5. Web Developer
+6. Sales Engineer
+7. Information Technology Manager
+8. Computer Research Scientist
+9. Network and Systems Administrator
+10. Computer Support Specialists 
