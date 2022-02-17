@@ -5,45 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaisei+Decol&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/114b640b74.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <nav>
-            <a href="#"><img src="./header image.png" alt="header_image"></a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
-            <a href="#home">HOME</a>&nbsp; &nbsp;
-            <a href="#features">FEATURES</a>&nbsp; &nbsp;
-            <a href="#portfolio">PORTFOLIO</a>&nbsp; &nbsp;
-            <a href="#resume">RESUME</a>&nbsp; &nbsp;
-            <a href="#clients">CLIENTS</a>&nbsp; &nbsp;
-            <a href="#pricing">PRICING</a>&nbsp; &nbsp;
-            <a href="#blog">BLOG</a>&nbsp; &nbsp;
-            <a href="#contact">CONTACT</a>&nbsp; &nbsp; &nbsp;
-            <input type="button" value="BUY NOW">
-        </nav>
+        <a href="#"><img src="./header image.png" alt="header_image">
+        <div id="nav">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#features">FEATURES</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#resume">RESUME</a></li>
+            <li><a href="#clients">CLIENTS</a></li>
+            <li><a href="#pricing">PRICING</a></li>
+            <li><a href="#blog">BLOG</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+            <button id="firstB">BUY NOW</button>
+        </div>
     </header>
-    <section id="home" role="home">
-        <h5>WELCOME TO MY WORLD</h5>
-        <h1>Hi, I’m Jone Lee</h1>
-        <h2>a Developer.</h2>
-        <p>I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. I’m not adding motion just to spruce things up, but doing it in ways that.</p>
-        <img src="./banner-01.png" alt="banner-01" height="300px" width="350px">
+ <section id="home" role="home">
+    <div>
+        <div id="deve">
+        <p class="smallBold">WELCOME TO MY WORLD</p>
+        <h1 class="bigBold upma">Hi, I’m <span> Jone Lee</span><br>
+        <span class="bigBold upma"><span>a</span>  <span id="animate"></span></span></h1>
+        <p class="writeUps">I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. I’m not adding motion just to spruce things up, but doing it in ways that.</p>
+       </div>
+     <div id="moreInfo">
         <div role="social media links">
             <p>FIND WITH ME</p>
-            <img src="./facebook.jfif" alt="facebook logo" height="25px">
-            <img src="./instagram.jfif" alt="instagram logo" height="25px">
-            <img src="./linkedin.png" alt="linkedin logo" height="25px">
+            <button class="fwm"><i class="fa-brands fa-facebook-f"></i></button>
+            <button class="fwm"><i class="fa-brands fa-instagram"></i></button>
+            <button class="fwm"><i class="fa-brands fa-linkedin-in"></i></button>
         </div>
-        <div role="skills">
+        <div >
             <p>BEST SKILL ON</p>
-            <img src="./icons-01.png" alt="" height="25px">
-            <img src="./icons-02.png" alt="" height="25px">
-            <img src="./icons-03.png" alt="" height="25px">
+            <div class="skills"><img src="./icons-01.png" alt="" height="25px" ></div>
+            <div class="skills"><img src="./icons-02.png" alt="" height="25px" ></div>
+            <div class="skills"><img src="./icons-03.png" alt="" height="25px" ></div>
         </div>
+      </div> 
+     </div>
+        <img src="./banner-01.png" alt="banner-01" height="600px" width="800px">
     </section>
     <hr width="1300px">
     <section id="features">
-        <h6><strong>FEATURES</strong></h6>
-        <h1>What I Do</h1>
+        <p class="pred"><strong>FEATURES</strong></p>
+        <p class="bigBold">What I Do</p>
         <table>
             <tr>
                 <td><strong>Business Strategy</strong><br>I throw myself down among the tall grass <br> by the stream as I lie close to <br> the earth</td>
@@ -56,7 +67,7 @@
         </table>
     </section>
     <hr width="1300px">
-    <section id="portfolio">
+   <!--  <section id="portfolio">
         <p><strong>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</strong> </p>
         <h1>My Portfolio</h1>
         <table>
@@ -222,6 +233,6 @@
     <footer>
         <a href="#"><img src="./footer.png" alt="footer image"></a>
         <p><strong>© 2021. All rights reserved by Rainbow-Themes.</strong></p>
-    </footer>
+    </footer> -->
 </body>
 </html>

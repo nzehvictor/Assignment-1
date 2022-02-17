@@ -1,0 +1,204 @@
+*{
+    background-color: #e9e1e1;
+}
+
+li{
+    list-style-type: none;
+}
+
+#firstB{
+    color: red;
+    background-color: #f8eaea;
+    border-radius: 10%;
+    border-color:#f8eaea ;
+    text-align: center;
+    height: 40px;
+    width: 100px;
+    transition: width 1s, height 1s, background-color 2s;
+}
+
+#firstB:hover{
+    color: white;
+    background-color: red;
+}
+
+header{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding-top: 1%;
+}
+
+#nav{
+    display: inline-block;
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#home{
+    margin-top: 100px;
+    display: flex;
+}
+
+.smallBold{
+    font-weight: lighter;
+    font-family: 'Kaisei Decol';
+    font-size: 18px;
+}
+
+span{
+    color: red;
+}
+
+.bigBold{
+    font-size: 64px;
+}
+
+#deve{
+    margin-top: 40px;
+}
+
+.upma{
+    margin-top: 0px;
+}
+
+@keyframes animate {
+  
+    0% {
+        content: "D";
+    }
+    3.8%{
+        content: "De";
+    }
+    7.6%{
+        content: "Dev";
+    }
+    11.4%{
+        content: "Deve";
+    }
+    15.2%{
+        content: "Devel";
+    }
+    19%{
+        content: "Develo";
+    }
+    22.8%{
+        content: "Develop";
+    }
+    26.6%{
+        content: "Develope";
+    }
+    30.4%{
+        content: "Developer.";
+    }
+    34.2%{
+        content: "P";
+    }
+    38%{
+        content: "Pr";
+    }
+    41.8%{
+        content: "Pro";
+    }
+    45.6%{
+        content: "Prof";
+    }
+    49.4%{
+        content: "Profe";
+    }
+    53.2%{
+        content: "Profes";
+    }
+    57%{
+        content: "Profess";
+    }
+    60.8%{
+        content: "Professi";
+    }
+    64.6%{
+        content: "Professio";
+    }
+    68.4%{
+        content: "Profession";
+    }
+    72.2%{
+        content: "Professiona";
+    }
+    76%{
+        content: "Professional";
+    }
+    79.8%{
+        content: "Professional ";
+    }
+    83.6%{
+        content: "Professional C";
+    }
+    87.4%{
+        content: "Professional Co";
+    }
+    91.2%{
+        content: "Professional Cod";
+    }
+    95%{
+        content: "Professional Code";
+    }
+    98.8%{
+        content: "Professional Coder";
+    }
+    100% {
+        content: "Professional Coder."
+    }
+}
+#animate::before{
+    content: "Developer";
+    color: black;
+    animation-name: animate;
+    animation-iteration-count: infinite;
+    padding-left: 10px;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    position: relative;
+}
+
+.writeUps{
+    font-family: 'Kaisei Decol';
+}
+#moreInfo{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+
+.skills{
+    background-color: #f8eaea;
+    border-radius: 10%;
+    border-color:#f8eaea ;
+    text-align: center;
+}
+
+.fwm{
+    width: 50px;
+    height: 50px;
+    color: red;
+    background-color: #f8eaea;
+    border-radius: 10%;
+    border-color:#f8eaea ;
+    text-align: center;
+    justify-content: space-around;
+    transition: width 1s, height 1s, background-color 2s;
+}
+button:hover{
+    color: white;
+    background-color: red;
+}
+
+.pred{
+    font-weight: lighter;
+    font-family: 'Kaisei Decol';
+    font-size: 18px;
+    color: red;
+}
