@@ -70,96 +70,190 @@ span{
     0% {
         content: "D";
     }
-    3.8%{
+    1.7%{
         content: "De";
     }
-    7.6%{
+    3.4%{
         content: "Dev";
     }
-    11.4%{
+    5.1%{
         content: "Deve";
     }
-    15.2%{
+    6.8%{
         content: "Devel";
     }
-    19%{
+    8.5%{
         content: "Develo";
     }
-    22.8%{
+    10.2%{
         content: "Develop";
     }
-    26.6%{
+    11.9%{
         content: "Develope";
     }
-    30.4%{
+    13.6%{
+        content: "Developer";
+    }
+    15.3%{
         content: "Developer.";
     }
-    34.2%{
+    17%{
+        content: "Developer";
+    }
+    18.7%{
+        content: "Develope";
+    }
+    20.4%{
+        content: "Develop";
+    }
+    22.1%{
+        content: "Develo";
+    }
+    23.8%{
+        content: "Devel";
+    }
+    25.5%{
+        content: "Deve";
+    }
+    27.2%{
+        content: "Dev";
+    }
+    28.9%{
+        content: "De";
+    }
+    30.6%{
+        content: "D";
+    }
+    32.3%{
+        content: " ";
+    }
+    34%{
         content: "P";
     }
-    38%{
+    35.7%{
         content: "Pr";
     }
-    41.8%{
+    37.4%{
         content: "Pro";
     }
-    45.6%{
+    39.1%{
         content: "Prof";
     }
-    49.4%{
+    40.8%{
         content: "Profe";
     }
-    53.2%{
+    42.5%{
         content: "Profes";
     }
-    57%{
+    44.2%{
         content: "Profess";
     }
-    60.8%{
+    45.9%{
         content: "Professi";
     }
-    64.6%{
+    47.6%{
         content: "Professio";
     }
-    68.4%{
+    49.3%{
         content: "Profession";
     }
-    72.2%{
+    51%{
         content: "Professiona";
     }
-    76%{
+    52.7%{
         content: "Professional";
     }
-    79.8%{
+    54.4%{
         content: "Professional ";
     }
-    83.6%{
+    56.1%{
         content: "Professional C";
     }
-    87.4%{
+    57.8%{
         content: "Professional Co";
     }
-    91.2%{
+    59.5%{
         content: "Professional Cod";
     }
-    95%{
+    61.2%{
         content: "Professional Code";
     }
-    98.8%{
+    62.9% {
+        content: "Professional Coder"
+    }
+    64.6% {
+        content: "Professional Coder.";
+    }
+    66.3% {
         content: "Professional Coder";
     }
-    100% {
-        content: "Professional Coder."
+    68% {
+        content: "Professional Code";
     }
+    69.7% {
+        content: "Professional Cod";
+    }
+    71.4%{
+        content: "Professional Co";
+    }
+    73.1%{
+        content: "Professional C";
+    }
+    74.8%{
+        content: "Professional ";
+    }
+    76.5%{
+        content: "Professional";
+    }
+    78.2%{
+        content: "Professiona";
+    }
+    79.9%{
+        content: "Profession";
+    }
+    81.6%{
+        content: "Professio";
+    }
+    83.3%{
+        content: "Professi";
+    }
+    85%{
+        content: "Profess";
+    }
+    86.7%{
+        content: "Profes";
+    }
+    88.4%{
+        content: "Profe";
+    }
+    90.1%{
+        content: "Prof";
+    }
+    91.8%{
+        content: "Pro";
+    }
+    93.5%{
+        content: "Pr";
+    }
+    95.2%{
+        content: "P";
+    }
+    96.9%{
+        content:" ";
+    }
+    98.6%{
+        content: 0%;
+    }
+
 }
 #animate::before{
-    content: "Developer";
+    content: " ";
     color: black;
     animation-name: animate;
     animation-iteration-count: infinite;
     padding-left: 10px;
-    animation-duration: 5s;
-    animation-timing-function: ease-in;
+    animation-duration: 7s;
+    animation-timing-function: ease-out;
     position: relative;
 }
 
@@ -174,10 +268,7 @@ span{
 
 
 .skills{
-    background-color: #f8eaea;
-    border-radius: 10%;
-    border-color:#f8eaea ;
-    text-align: center;
+    display: flex;
 }
 
 .fwm{
@@ -189,6 +280,7 @@ span{
     border-color:#f8eaea ;
     text-align: center;
     justify-content: space-around;
+    margin-left: 10px;
     transition: width 1s, height 1s, background-color 2s;
 }
 button:hover{
@@ -201,4 +293,24 @@ button:hover{
     font-family: 'Kaisei Decol';
     font-size: 18px;
     color: red;
+}
+
+.Ftd{
+    border-radius: 10%;
+    background-color: #f8eaea;
+    text-align: center;
+    border-collapse: collapse;
+    padding: 30px;
+    text-align: left;
+}
+.Ftd:hover{
+    color:  white;
+    background-color: red;
+}
+.Ficon{
+    color: red;
+    font-size: 40px;
+}
+.Mbo{
+    margin-bottom: 100px;
 }
